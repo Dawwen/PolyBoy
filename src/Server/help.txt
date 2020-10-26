@@ -1,0 +1,10 @@
+Command available:
+	help 			//Show all the possible command
+	status			//Show which server are working
+	start server		//Start the server
+	stop server		//Stop the server
+	verbose server	//Set the verbose of server to on or off
+
+Server available:
+	score			//Server containing the High-Score
+	game			//Server running the game
