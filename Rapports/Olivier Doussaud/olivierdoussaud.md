@@ -29,13 +29,13 @@ Les problèmes persistant sont :
 Je me suis occupé du problème de transparence que l'on avait. Pour gerer la transparence je dois choisir une couleur qui sera consideré comme transparent la couleur utilisé communement est le **magenta** . Pour résoudre ce problème j'ai modifié notre **script** qui transfornait les images **bmp** en fichier pour l'arduino.A la place de copier tout l'image je regarde le contour du contenu de l'image et je prend que ce qu'il y a à l'interieur. Ce qui fait que les sprites n'auront pas forcément de forme carré. Cela ne gére que une partie de la transparence, cela permet d'enlever les fond noir de l'image mais laisse les pixel magenta à l'interieur du contour visible.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ThePolyBoy/PolyBoy/master/Rapports/Olivier%20Doussaud/images/tranparence_1.jpg" alt="1ere essai de transparence"  width="320px"/>
+  <img src="images/tranparence_1.jpg" alt="1ere essai de transparence"  width="320px"/>
 </p>
 
 Pour résoudre ce problème on doit s'occuper du coté de l'arduino et plus spécifiquement du coté de la librairie. J'ai modifié la librairie en faisant que quand il affiche un **sprite** si la couleur est **magenta** il n'affiche pas **magenta** mais la couleur du **background** ce qui corrige le problème restant.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ThePolyBoy/PolyBoy/master/Rapports/Olivier%20Doussaud/images/tranparence_3.jpg" alt="1ere essai de transparence"  width="320px"/>
+  <img src="images/tranparence_3.jpg" alt="1ere essai de transparence"  width="320px"/>
 </p>
 
 J'ai aussi commencé à travailler sur la partie wifi de notre projet j'ai réussi a envoyer un msg de l'**esp8266** à l'ordinateur sans plus.
@@ -67,7 +67,7 @@ Pour l'instant sur la Psvita on peut afficher du text et des formes géometrique
 
 J'ai fait un schéma des différentes parties du la partie web de notre projet:
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ThePolyBoy/PolyBoy/master/Rapports/Olivier%20Doussaud/images/Server_Scheme.png" alt="Architecture du serveur"  width="320px"/>
+  <img src="images/Server_Scheme.png" alt="Architecture du serveur"  width="320px"/>
 </p>
 
 Les différentes parties sont :
