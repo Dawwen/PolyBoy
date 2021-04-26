@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/Logo.png" alt="PolyBoy Advance" width="200px">
+  <img src="docs/images/logo.png" alt="PolyBoy Advance" width="200px">
 </p>
 
 # PolyBoy Advance
