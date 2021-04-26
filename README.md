@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/Logo.png" alt="Poly Boy Advance" width="200px">
+  <img src="Rapports/Joao%20Brilhante/images/Logo.png" alt="Poly Boy Advance" width="200px">
 </p>
 
 ## Une console portable basée sur Arduino Due
