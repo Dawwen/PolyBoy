@@ -1,9 +1,24 @@
 <p align="center">
-  <img src="Rapports/Joao%20Brilhante/images/Logo.png" alt="Poly Boy Advance" width="200px">
+  <img src="docs/images/Logo.png" alt="PolyBoy Advance" width="200px">
 </p>
 
-## Une console portable basée sur Arduino Due
-Notre projet est de créer une console portable basée sur Arduino Due. Elle sera notamment équipée d’un écran `TFT`, d’un lecteur de carte `SD`, d’un haut-parleur, d’un gyroscope, d’un module bluetooth… De plus, elle devrait posséder une interface permettant de lancer plusieurs jeux et applications.
+# PolyBoy Advance
 
-## Liens utiles
-- Rapports : [Lien](Rapports)
+**Course :** Arduino
+
+**Supervisors :** P. Masson, N. Abderrahmane
+
+**Date :** December 2018 - March 2019
+
+## Description
+
+The goal of this project is to create a portable console based on Arduino Due. For this purpose, our portable console is equipped with a `TFT` screen, a `SD` card reader, a speaker, a gyroscope, a bluetooth module and other sensors and actuators. In the future, we think of developing an interface allowing to launch several games and applications.
+
+## Authors
+
+- [João Brilhante](https://github.com/JoaoBrlt)
+- [Olivier Doussaud](https://github.com/Dawwen)
+
+## License
+
+This project is licensed under the GPLv3 License - see the [LICENSE](LICENSE) file for details.
